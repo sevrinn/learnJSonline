@@ -1,5 +1,5 @@
-const getDescription = (text) => {
+export default function getDescription(text) {
 	console.log(text);
-};
-
-export default getDescription;
+	let subText = text.substring(0, 10);
+	return subText;
+}
